@@ -1,20 +1,21 @@
+# DCFSharp.Oct2013
+
 This is the starter code for D.C. area F# Meetup on October 23, 2013.
 It showcases building simple interactive browser animations
-with F#/WebSharper.
+with F#/WebSharper by implementing 2D **boids**, a simple artificial bird
+flocking algorithm running natively in the browser in JavaScript over Canvas.
+We hope to get creative tweaking the code over the course of the session.
 
-The starter code implements the **boids**, a simple artificial bird flocking algorithm
-in F#/WebSharper running natively in the browser in JavaScript over Canvas. We hope to
-get creative tweaking the code over the course of the session.
-
-## Key Points
+## Highlights
 
 * JavaScript is the new portable assembly language
 * F# much more *fun* to work with than JavaScript, no?
 * F# gives types without making you type them..
 * WebSharper makes using F# for both server (CLR) and client (JS) easy
-* Starting from screwed up imperative APIs (Canvas), it is easy to "functionalize" a bit in F#
+* Starting from screwed up imperative APIs (`Canvas`), it is easy to "functionalize" a bit in F#
 * Performance on modern browsers surprisingly good without optimization
 * Can use meta-programming to get more performance
+* Bright future for performant x-platform JS apps: `WebGL`, `asm.js`
 
 ## Requirements
 
@@ -33,7 +34,6 @@ Press F5, the demo should show up in the browser.
 
 ## Code Walkthrough
 
-
 * `Vectors2D.fs` - simple vector arithmetic with `d = 2`
 * `Shapes.fs` - functional "shape" abstraction as an alternative to the Canvas interface
 * `Client.fs` - entry-point of the app, generating some DOM nodes and behaviors
@@ -42,3 +42,7 @@ Press F5, the demo should show up in the browser.
 * `Remoting.fs` - RPC boilerplate
 * `Main.fs` - server-side boilerplate
 * `Main.html` - wrapper template for the app
+
+## License
+
+All code available under Apache 2.0 license.
