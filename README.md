@@ -1,5 +1,11 @@
 # DCFSharp.Oct2013
 
+Quick Links:
+
+* [WebSharper Downloads](https://github.com/intellifactory/websharper/blob/master/docs/Install.md)
+* [WebSharper Install instructions](https://bitbucket.org/IntelliFactory/websharper/downloads)
+* [Meetup Hangout](https://plus.google.com/hangouts/_/6ac42f6a43b2ed217ce4293c322543f4e1a1ddeb)
+
 This is the starter code for D.C. area F# Meetup on October 23, 2013.
 It showcases building simple interactive browser animations
 with F#/WebSharper by implementing 2D **boids**, a simple artificial bird
