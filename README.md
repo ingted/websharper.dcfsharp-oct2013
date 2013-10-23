@@ -46,3 +46,12 @@ Press F5, the demo should show up in the browser.
 ## License
 
 All code available under Apache 2.0 license.
+
+## Credits
+
+Boids model was created in 1987 by Craig Reynolds, and there is a
+dedicated [homepage](http://red3d.com/cwr/boids) by the author.
+
+Conrad Parker has a very helpful
+[pseudocode tutorial](http://kfish.org/boids/pseudocode.html)
+to get started quickly.
