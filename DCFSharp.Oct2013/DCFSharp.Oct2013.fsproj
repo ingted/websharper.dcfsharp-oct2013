@@ -80,7 +80,6 @@
     <Compile Include="Extensions.fs" />
     <Compile Include="Shapes.fs" />
     <Compile Include="Boids.fs" />
-    <Compile Include="GameOfLife.fs" />
     <Compile Include="Client.fs" />
     <Compile Include="Main.fs" />
     <Content Include="Main.html" />
