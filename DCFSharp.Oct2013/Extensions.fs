@@ -23,6 +23,9 @@ module Extensions =
             OnTick : TimeSpan -> unit
         }
 
+    let crap (ctx: Ctx2D) =
+        let d = ctx.CreateImageData(10., 20.)
+        d.Height
     type Canvas =
         {
             CanvasElement : Dom.Element

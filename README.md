@@ -39,7 +39,6 @@ Press F5, the demo should show up in the browser.
 * `Client.fs` - entry-point of the app, generating some DOM nodes and behaviors
 * `Extensions.fs` - helper methods missing from standard library
 * `Boids.fs` - the boids flocking model
-* `Remoting.fs` - RPC boilerplate
 * `Main.fs` - server-side boilerplate
 * `Main.html` - wrapper template for the app
 
